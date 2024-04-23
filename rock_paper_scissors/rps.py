@@ -117,7 +117,7 @@ screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Rock Paper Scissors')
 clock = pygame.time.Clock()
 
-bg = pygame.image.load(r"D:\Codsoft\rps\bg\rps_bg.png").convert()  #10
+bg = pygame.image.load(r"D:\Codsoft\rps\bg\rps_bg.png").convert() 
 
 player = Player(screen, is_player=True)
 computer = Player(screen, is_player=False)
